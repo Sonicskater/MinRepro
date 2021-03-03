@@ -9,7 +9,7 @@
 import Foundation
 
 
-protocol TestProto {
+@objc public protocol TestProto {
     var s : String {get set}
     var i : Int {get set}
     func foo() -> Void

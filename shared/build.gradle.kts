@@ -66,7 +66,11 @@ kotlin {
         homepage = "a"
         summary = "a"
 
-        pod("AFNetworking")
+        //pod("AFNetworking")
+
+        pod("TestRepro"){
+            source = path(project.file("../test-repro"))
+        }
     }
 
     targets.withType<KotlinNativeTarget>{
