@@ -15,3 +15,4 @@
 
 # Project exclude paths
 /shared/build/
+/test-repro/Pods/

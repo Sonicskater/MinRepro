@@ -69,7 +69,7 @@ kotlin {
         //pod("AFNetworking")
 
         pod("TestRepro"){
-            source = path(project.file("../test-repro"))
+            source = path(project.file("../TestRepro"))
         }
     }
 
