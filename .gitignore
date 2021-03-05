@@ -16,3 +16,5 @@
 # Project exclude paths
 /shared/build/
 /test-repro/Pods/
+/androidApp/build/
+/TestRepro/TestRepro.xcworkspace/xcuserdata/

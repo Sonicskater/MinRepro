@@ -76,7 +76,7 @@ kotlin {
     targets.withType<KotlinNativeTarget>{
 
         binaries.withType<org.jetbrains.kotlin.gradle.plugin.mpp.Framework>{
-            isStatic = false
+            isStatic = true
             transitiveExport = true
 
         }
