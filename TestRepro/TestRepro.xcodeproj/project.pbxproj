@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B360DBDC5D2EDF26D003168C /* Pods_TestRepro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51D34BA882EE7342F260A99 /* Pods_TestRepro.framework */; };
-		EA549B8F25F0468F009D0957 /* test_repro.h in Headers */ = {isa = PBXBuildFile; fileRef = EA549B8D25F0468F009D0957 /* test_repro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA549B8F25F0468F009D0957 /* TestRepro.h in Headers */ = {isa = PBXBuildFile; fileRef = EA549B8D25F0468F009D0957 /* TestRepro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA549B9625F04706009D0957 /* observable.m in Sources */ = {isa = PBXBuildFile; fileRef = EA549B9525F04706009D0957 /* observable.m */; };
 		EA549B9925F047A9009D0957 /* testProto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA549B9825F047A9009D0957 /* testProto.swift */; };
 /* End PBXBuildFile section */
@@ -19,7 +19,7 @@
 		C1441AF7E2AEE23D68AB1382 /* Pods-test-repro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-repro.release.xcconfig"; path = "Target Support Files/Pods-test-repro/Pods-test-repro.release.xcconfig"; sourceTree = "<group>"; };
 		E60EB81A85CFBEC0B8A15C27 /* Pods-TestRepro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRepro.debug.xcconfig"; path = "Target Support Files/Pods-TestRepro/Pods-TestRepro.debug.xcconfig"; sourceTree = "<group>"; };
 		EA549B8A25F0468F009D0957 /* TestRepro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestRepro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA549B8D25F0468F009D0957 /* test_repro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_repro.h; sourceTree = "<group>"; };
+		EA549B8D25F0468F009D0957 /* TestRepro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRepro.h; sourceTree = "<group>"; };
 		EA549B8E25F0468F009D0957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA549B9525F04706009D0957 /* observable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = observable.m; sourceTree = "<group>"; };
 		EA549B9725F04719009D0957 /* observable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = observable.h; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		EA549B8C25F0468F009D0957 /* TestRepro */ = {
 			isa = PBXGroup;
 			children = (
-				EA549B8D25F0468F009D0957 /* test_repro.h */,
+				EA549B8D25F0468F009D0957 /* TestRepro.h */,
 				EA549B8E25F0468F009D0957 /* Info.plist */,
 				EA549B9525F04706009D0957 /* observable.m */,
 				EA549B9725F04719009D0957 /* observable.h */,
@@ -97,7 +97,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA549B8F25F0468F009D0957 /* test_repro.h in Headers */,
+				EA549B8F25F0468F009D0957 /* TestRepro.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

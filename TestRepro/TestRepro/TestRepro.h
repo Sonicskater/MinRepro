@@ -1,4 +1,4 @@
-//
+T//
 //  test_repro.h
 //  test-repro
 //
@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "TestRepro/observable.h"
 //! Project version number for test_repro.
 FOUNDATION_EXPORT double test_reproVersionNumber;
 
